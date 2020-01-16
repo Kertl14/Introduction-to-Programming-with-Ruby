@@ -4,7 +4,7 @@ num = gets.chomp.to_i
 thou = num / 1000
 hund = (num % 1000) / 100
 ten = (num % 100) / 10
-one = (num % 10) / 1
+one = (num % 10)
 
 puts "That number is more than 4 digits" if num > 9999
 puts "That number is less than 4 digits" if num < 1000
